@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutterroutes/profile_screen.dart';
-import 'package:flutterroutes/projects_screen.dart';
-import 'package:flutterroutes/setings_screen.dart';
 import 'package:flutterroutes/utlies/routes_name.dart';
 
 class HomeScreen extends StatefulWidget {

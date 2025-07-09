@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class ProfileScreen extends StatefulWidget {
   dynamic data;
   ProfileScreen({super.key,required this.data});
