@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterroutes/home_screen.dart';
+import 'package:flutterroutes/utlies/routes.dart';
+import 'package:flutterroutes/utlies/routes_name.dart';
 void main(){
   runApp(MyApp());
 }
@@ -10,7 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      initialRoute: RoutesName.homeScreen,
+      onGenerateRoute: Routes.genrateRoutes,
     );
   }
 }
